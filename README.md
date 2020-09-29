@@ -1,3 +1,3 @@
 # LocalWeather-Website
  i cant sleep so i did a thing
-[link](https://gaminartprod.github.io/Weather-Website/)
+[I'm an inline-style link](https://www.google.com)
