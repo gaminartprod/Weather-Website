@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,255,239,1) 40%, rgba(0,212,255,1) 100%);
+}
+
+.location, .temperature {
+    /* border-style: solid; */
+    display: flex;
+    height: 25%;
+    width: 50%;
+}
+
+.location {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.location-timezone{
+    font-size: 60px;
+}
+
+.temperature-container{
+    /* border-style: solid; */
+    cursor: pointer;
+    display: flex;
+    padding: 15px;
+
+}
+
+.temperature {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.temperature-description {
+    font-size: 35px;
+}
+
+.temperature-container {
+    font-size: 80px;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href = "style.css"/>
+    
+    <title>Weather Website</title>
+</head>
+<body>
+
+    <div class = "location">
+        <h1 class = "location-timezone", id = 'timezone'> Location </h1>
+        <canvas id="icon" width="128" height="128"></canvas>
+    </div>
+
+    <div class = "temperature">
+        
+        <div class= "temperature-container">
+            <h2 class="temperature-value">
+                68
+            </h2>
+            <span class= "temperature-unit">
+                F
+            </span>
+        </div>
+        
+        <h5 class="temperature-description", id = 'description'>
+            Its friggin cold.
+        </h5>
+    </div>
+
+    <script src = 'skycons.js'> </script>
+    <script src = "app.js"> </script>
+</body>
+</html>
